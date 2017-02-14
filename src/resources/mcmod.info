@@ -1,0 +1,16 @@
+[
+{
+  "modid": "armory-colonization",
+  "name": "Armory-Colonization",
+  "description": "Armorers! Colonize the World!",
+  "version": "${VERSION}",
+  "mcversion": "${MCVERSION}",
+  "url": "",
+  "updateUrl": "",
+  "authorsList": ["OrionDevelopment"],
+  "credits": "All the people who helped me getting this project going",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

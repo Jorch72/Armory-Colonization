@@ -1,0 +1,15 @@
+branches:
+  only:
+    - /^Development-.*$/
+    - /^Minecraft-.*$/
+language: java
+sudo: false
+jdk:
+- oraclejdk8
+before_install:
+- chmod +x gradlew
+install: ./gradlew setupCIWorkspace -S
+script: ./gradlew build -S
+after_success:
+  - ./gradlew curseforge -S
+
