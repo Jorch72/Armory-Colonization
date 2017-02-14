@@ -17,5 +17,9 @@ public class References {
         public static class Blocks {
             public static final ResourceLocation BN_HUT_BLACKSMITH = new ResourceLocation(General.MOD_ID, "blocks.huts.blacksmith");
         }
+
+        public static class Jobs {
+            public static final ResourceLocation JN_JOB_BLACKSMITH = new ResourceLocation(General.MOD_ID, "jobs.blacksmith");
+        }
     }
 }

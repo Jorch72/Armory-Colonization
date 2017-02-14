@@ -7,6 +7,7 @@ import com.minecolonies.coremod.colony.Colony;
 import com.minecolonies.coremod.colony.ColonyView;
 import com.minecolonies.coremod.colony.buildings.AbstractBuildingWorker;
 import com.minecolonies.coremod.colony.jobs.AbstractJob;
+import com.smithsmodding.armorycolonization.util.References;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.util.math.BlockPos;
 import org.jetbrains.annotations.NotNull;
@@ -22,7 +23,7 @@ public class BuildingBlackSmith extends AbstractBuildingWorker {
 
     @Override
     public @NotNull String getJobName() {
-        return null;
+        return References.InternalNames.Jobs.JN_JOB_BLACKSMITH.toString();
     }
 
     @NotNull
